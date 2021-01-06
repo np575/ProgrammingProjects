@@ -62,4 +62,36 @@ If that doesn't work: `sudo vim $(psql -c "show hba_file;" | grep pg_hba.conf)`
 5. Run your code!    
   a) `npm run watch`. If prompted to install webpack-cli, type "yes"    
   b) In a new terminal, `python app.py`    
-  c) Preview Running Application (might have to clear your cache by doing a hard refresh)    
+  c) Preview Running Application (might have to clear your cache by doing a hard refresh)   
+  
+# This steps shows how the Unittesting was done in this repository.
+
+# Steps to get coverage running for the pylint: Coverage Report
+0. coverage run -m --source=. unittest tests/*.py
+1. coverage html
+3. A new fiule should get created called htmlcov/index.html
+4. Preview that file to check the Coverage Report.
+
+# Steps to install necessary tools to install pylint and eslint
+0. pip install pylint
+1. pip install black
+2. npm install -g eslint
+3. npm init
+* press enter to accept all default values
+4. eslint --init
+"To check syntax, find problems, and enforce code style"
+"JavaScript modules (import/export)"
+"React"
+"Browser"
+"Use a popular style guide"
+"Javascript"
+"Yes" in the end.
+
+# Steps to check all the files using pylint and estlint
+0. pylint <python files> for example: python app.py
+1. estlint <jsx files> for example: estlint Button.jsx
+* eslint --fix Button.jsx to fix some of the errors.
+  
+# Steps to run both unittest files under tests
+0. python unmocked_unit_tests.py
+1. python mocked_unit_tests.py
