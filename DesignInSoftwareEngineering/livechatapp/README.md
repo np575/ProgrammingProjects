@@ -1,4 +1,4 @@
-# Project2-np575
+# Livechatapp-Nisarg Patel
 
 This repository demostrates an sample public chat application with both the client-server connection with the use of Socket.io, React.js with the Flask (Python),HTML,CSS on AWS Cloud9. The python being the server as the backend and the React is for the client side.
 The final version of the app is deployed on Heroku which can be found by clicking here: https://hidden-lowlands-04121.herokuapp.com/ (Please Full-screen the App in a new tab preferrebaly Google Chrome and set the zoom to 100% because of css it might look differently in other devices. Also configure cookie settings, chrome://settings/content/cookies   Here's an output screenshot link: https://github.com/NJIT-CS490/project2-m2-np575/blob/master/herokuapp.PNG)
