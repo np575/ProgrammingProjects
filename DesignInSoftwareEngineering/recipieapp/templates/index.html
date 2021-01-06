@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Food Tweet</title>
+        <link rel="stylesheet" href={{ url_for("static", filename="tweet_style.css") }} >
+    </head>
+    <body>
+        
+        <h1>Dish information for: {{ title }} </h1>
+        <img src="{{ img_path }}" />
+        
+        <ol>
+        Title: {{ title }} </br>
+        <br> Preperation Time: {{ time }} minutes</br>
+       <br>  Serving size: {{ servings }} </br>
+        <br> Recipie Url: <a href="{{ url }}" target="_blank">link to the recipes</a></br>
+        </ol> 
+        
+        <h1> Ingredient list</h1>
+          <ol>
+            {% for i in range(0, list2_len) %}
+                <li>{{ ingredeint_list[i] }} </br>
+              </li>
+        
+            {% endfor %}
+        </ol>
+        
+            <h1>Tweet related to {{ search_words }} </h1>
+  
+        <ol>
+            {% for i in range(0, list_len) %}
+                Tweet: {{ tweet_list[i] }} </br>
+                <br> Tweet time: {{ tweet_time[i] }}</br>
+                <br>Username: {{ tweet_username[i] }}</br>
+                <br> Url: {{ tweet_urls[i] }} </br>
+                <br/>
+        
+            {% endfor %}
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+body{
+    font-family: "sans-serif";
+    font-size: 28px;
+    background-color: #7F8688;
+    opacity: 0.6;
+    text-align: center;
+    color:black;
+}
+
+
+h1{
+    font-family: serif;
+    background-color: #F3E367;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    padding: 25px,50px,75px,100px;
+}
+
+
+ol{ 
+    color:black;
+    font-size: 28px;
+    border: 1px solid black;
+    background-color: #F3E367;
+    font-family: cursive;
+    text-align: left;
+}
+
+ol li{
+    
+    color:black;
+    font-size: 28px;
+    background-color: #F3E367;
+    font-family: cursive;
+    text-align: left;
+    
+}
