@@ -1,8 +1,5 @@
 # project1-np575
 
-09/22/2020 first milestone of Project-1 for getting twitter API working.
-09/29/2020 second milestone of project-2 for getting the spoonacular API working.
-
 This repository demostrates the use of Twitter API, spoonacular API (food) using Flask,HTML,CSS on AWS Cloud9.This repository consists of .pyfile written in python and flask,gitignore to hide the Twitter and spoonacular API keys, two folder for HTML and CSS, Procfie, requirements.txt and this Readme. The final version of the app is deployed on Heroku which can be found by clicking here: https://thawing-chamber-85195.herokuapp.com/
 
 prerequisite: Flask, Python, HTML/CSS, basic knowledge of API.  
