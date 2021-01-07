@@ -1,2 +1,2 @@
 # ProgrammingProjects
-collection of all my programming projects.
+collection of all the programming projects.
