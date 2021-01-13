@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             public void findWeather(){
 
         String city_name =editText.getText().toString();
-        String url ="http://api.openweathermap.org/data/2.5/weather?q="+city_name+"&appid=37d792f7e63e89331866bc672fe6ab64";
+        String url ="http://api.openweathermap.org/data/2.5/weather?q="+city_name+"&appid=#";
 
                 StringRequest stringrequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
                     @Override
